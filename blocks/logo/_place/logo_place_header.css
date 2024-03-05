@@ -1,0 +1,8 @@
+.logo_place_header {
+  top: 30px;
+  left: 64px;
+  height: 100px;
+  z-index: 4;
+  position: absolute;
+  background-image: url(../../../images/logo/UEFA\ Euro\ 2024\ Germany.svg);
+}

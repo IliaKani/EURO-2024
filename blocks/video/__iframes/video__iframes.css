@@ -1,0 +1,6 @@
+.video__iframes {
+  margin: auto;
+  align-self: center;
+  position: relative;
+  display: flex;
+}

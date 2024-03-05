@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'UEFA Euro';
+    src: url('UEFAEuro-Medium.eot');
+    src: local('UEFA Euro Medium'), local('UEFAEuro-Medium'),
+        url('UEFAEuro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('UEFAEuro-Medium.woff2') format('woff2'),
+        url('UEFAEuro-Medium.woff') format('woff'),
+        url('UEFAEuro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UEFA Euro Book';
+    src: url('UEFAEuro-Book.eot');
+    src: local('UEFA Euro Book'), local('UEFAEuro-Book'),
+        url('UEFAEuro-Book.eot?#iefix') format('embedded-opentype'),
+        url('UEFAEuro-Book.woff2') format('woff2'),
+        url('UEFAEuro-Book.woff') format('woff'),
+        url('UEFAEuro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UEFA Euro Extrabold Narrow';
+    src: url('UEFAEuro-ExtraBoldNarrow.eot');
+    src: local('UEFA Euro Extrabold Narrow'), local('UEFAEuro-ExtraBoldNarrow'),
+        url('UEFAEuro-ExtraBoldNarrow.eot?#iefix') format('embedded-opentype'),
+        url('UEFAEuro-ExtraBoldNarrow.woff2') format('woff2'),
+        url('UEFAEuro-ExtraBoldNarrow.woff') format('woff'),
+        url('UEFAEuro-ExtraBoldNarrow.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UEFA Euro Heavy Narrow';
+    src: url('UEFAEuro-HeavyNarrow.eot');
+    src: local('UEFA Euro Heavy Narrow'), local('UEFAEuro-HeavyNarrow'),
+        url('UEFAEuro-HeavyNarrow.eot?#iefix') format('embedded-opentype'),
+        url('UEFAEuro-HeavyNarrow.woff2') format('woff2'),
+        url('UEFAEuro-HeavyNarrow.woff') format('woff'),
+        url('UEFAEuro-HeavyNarrow.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UEFA Euro';
+    src: url('UEFAEuro-Bold.eot');
+    src: local('UEFA Euro Bold'), local('UEFAEuro-Bold'),
+        url('UEFAEuro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('UEFAEuro-Bold.woff2') format('woff2'),
+        url('UEFAEuro-Bold.woff') format('woff'),
+        url('UEFAEuro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

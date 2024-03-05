@@ -1,0 +1,15 @@
+@import url(./__author/footer__author.css);
+@import url(./__column/footer__column.css);
+@import url(./__columns/footer__columns.css);
+@import url(./__column-heading/footer__column-heading.css);
+@import url(./__column-link/footer__column-link.css);
+@import url(./__column-links/footer__column-links.css);
+@import url(./__social-icon/footer__social-icon.css);
+
+.footer {
+  min-height: 350px;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}

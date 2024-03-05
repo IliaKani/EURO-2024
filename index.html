@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>UEFA EURO 2024</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="logo logo_place_header"></div>
+      <h1 class="header__title">UEFA EURO 2024</h1>
+      <p class="header__subtitle">how to get to the main tournament 2024?
+        <a href="https://www.uefa.com/euro2024/ticketing/" class="header__link">Find out →</a>
+      </p>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="здесь должна быть картина с мальчиком и собакой">
+      <div class="header__square-pic rotation"></div>
+    </header>
+    <main class="content">
+      <section class="description">
+        <h2 class="section-title">Time left until the start of the tournament</h2>
+          <div id="time">
+            <div class="circle" style="--clr:#04fc43;">
+                <div class="dots day__dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="dd"></circle>
+                </svg>
+                <div id="days">00<br><span>Days</span></div>
+            </div>
+
+            <div class="circle" style="--clr:black;">
+                <div class="dots hr__dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="hours">00</div>
+            </div>
+
+            <div class="circle" style="--clr:red;">
+                <div class="dots min__dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutes">00</div>
+            </div>
+
+            <div class="circle" style="--clr:#fee800;">
+                <div class="dots sec__dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="seconds">00</div>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Main contenders</h2>
+        <p class="section-subtitle">The top six teams in the tournament according to FIFA rankings</p>
+        <div class="cards">
+          <div class="cards__item">
+            <img class="cards__image" src="./images/287px-France_national_football_team_seal.svg.png" alt="here has to be a flag of England">
+            <h3 class="cards__title">France</h3>
+            <p class="cards__description">'Les Tricolores'</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/England_national_football_team_crest.svg.png" alt="here has to be a flag of England">
+            <h3 class="cards__title">England</h3>
+            <p class="cards__description">'Three Lions'</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/Royal_Belgian_Football_Association_Logo.svg.png" alt="здесь должна быть картинка вестибюля метро">
+            <h3 class="cards__title">Belgium</h3>
+            <p class="cards__description">'De Rode Duivels'</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/Portuguese_Football_Federation.svg.png" alt="здесь должна быть картинка со стопкой книг в руке">
+            <h3 class="cards__title">Portugal</h3>
+            <p class="cards__description">'Seleção das Quinas'</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/Spain_National_Football_Team_Badge.png" alt="здесь должна быть картинка со стопкой книг в руке">
+            <h3 class="cards__title">Spain</h3>
+            <p class="cards__description">'La Furia Roja'</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" src="./images/Logo_Italy_National_Football_Team_-_2023.svg.png" alt="здесь должна быть картинка с человеком в пустом помещении">
+            <h3 class="cards__title">Italy</h3>
+            <p class="cards__description">'Squadra Azzurra'</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">Video on Youtube</h2>
+        <p class="section-subtitle">feel the atmosphere</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/-65m2-T1Qe8?si=radlZ-8MpcvK6d02" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/_WcoIoN4HJs?si=ttXTBTblryaz97II" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="feinman">
+        <h2 class="feinman__title">Gegenpressing</h2>
+        <p class="feinman__subtitle"></p>
+        <a href="https://youtu.be/5QRWryN3okY?si=jUi7BigJZQkBBGE_" class="feinman__link">More details →</a>
+        <div class="feinman__img"></div>
+      </section>
+
+      <section class="digits">
+        <h2 class="section-title">Numbers and facts</h2>
+        <p class="section-subtitle">about EURO</p>
+        <div class="table">
+          <div class="table__cell">
+            <p class="table__heading">5.2 billion people</p>
+            <p class="table__text">Cumulative audience of live broadcasts at EURO 2020</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">142 goals</p>
+            <p class="table__text">number of goals scored at EURO 2020</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">1 team</p>
+            <p class="table__text">Only the Spanish team was able to defend the champion title in 2012</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">25 games</p>
+            <p class="table__text">Cristiano Ronaldo has played the most matches at the EURO</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">3 times</p>
+            <p class="table__text">2 teams have won the EURO the maximum number of times (Spain and Germany)</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">14 goals</p>
+            <p class="table__text">Cristiano Ronaldo has scored the most EURO goals</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">1960 year</p>
+            <p class="table__text">Year of the first EURO</p>
+          </div>
+          <div class="table__cell">
+            <p class="table__heading">1 win</p>
+            <p class="table__text">The Portuguese national team won EURO 2016, winning just 1 match in regular time</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author"> Chris Evans</p>
+          <h2 class="khan__title">How to Win the World Cup</h2>
+          <blockquote class="khan__quote">Only 20 managers have managed to guide national sides to a World Cup victory. In his book, Chris Evans searches for the secrets and keys to winning the most prestigious tournament in world football. The book includes insights from journalists, players, and managers as they try to unlock the mystery.</blockquote>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/book2.jpeg" alt="изображение книги Салман Хан">
+            <a href="https://www.amazon.co.uk/How-Win-World-Cup-International/dp/147299079X?&linkCode=ll1&tag=goaluk-21&linkId=1e0ad15731a61b57e12cd3f731ec7105&language=en_GB&ref_=as_li_ss_tl" class="khan__buy-link">Buy a book &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="kaufman">
+        <h2 class="section-title section-title_theme_dark">10 rules</h2>
+        <p class="section-subtitle section-subtitle_theme_dark">of Jurgen Klopp</p>
+        <div class="table table_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">1</p>
+            <p class="table__text table__text_theme_dark">Improve your environment</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">2</p>
+            <p class="table__text table__text_theme_dark">Build memorable experiences</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">3</p>
+            <p class="table__text table__text_theme_dark">Live in the moment </p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">4</p>
+            <p class="table__text table__text_theme_dark">Building a family</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">5</p>
+            <p class="table__text table__text_theme_dark">Be confident</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">6</p>
+            <p class="table__text table__text_theme_dark">Keep trying</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">7</p>
+            <p class="table__text table__text_theme_dark">Learn from your experience</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">8</p>
+            <p class="table__text table__text_theme_dark">Be disciplined</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">9</p>
+            <p class="table__text table__text_theme_dark">Being passionate</p>
+          </div>
+          <div class="table__cell table__cell_theme_dark">
+            <p class="table__heading table__heading_theme_dark">10</p>
+            <p class="table__text table__text_theme_dark">Express energy </p>
+          </div>
+        </div>
+        <div class="kaufman__triangle rotation"></div>
+      </section>
+
+      <section class="resources">
+        <h2 class="section-title">Useful Resources</h2>
+        <p class="section-subtitle">more materials about sports</p>
+        <div class="resources__logo-zone">
+          <a href="https://theathletic.com/uk/" class="resources__logo-link"> <img class="resources__logo" src="./images/logo/1024px-The_Athletic_wordmark_black_2020.svg.png" alt="здесь должен быть логотип Arzamas"></a>
+          <a href="https://www.espn.com/soccer/" class="resources__logo-link"> <img class="resources__logo" src="./images/logo/espn-logo-transparent.png" alt="здесь должен быть логотип N+1"></a>
+          <a href="https://www.fourfourtwo.com/" class="resources__logo-link"> <img class="resources__logo" src="./images/logo/fourfourtwo-review-537055.webp" alt="здесь должен быть логотип Strelka"></a>
+          <a href="https://mundialmag.com/" class="resources__logo-link"> <img class="resources__logo" src="./images/logo/mundial-1-1.webp" alt="здесь должен быть логотип Полка"></a>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <div class="footer__author">&copy; 2024 Ilia Kanishchev</div>
+        </div>
+        <nav class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">Abour EURO 2024</h3>
+          <ul class="footer__column-links">
+           <li><a href="https://de.uefa.com/euro2024/" class="footer__column-link">Main</a></li>
+           <li><a href="https://de.uefa.com/euro2024/ticketing/" class="footer__column-link">Tickets</a></li>
+           <li><a href="https://www.uefa.com/euro2024/news/0273-14ac084902cc-9ef59ec61319-1000--euro-2024-host-cities-venue-guide/" class="footer__column-link">Cities</a></li>
+          </ul>
+        </nav>
+        <div class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Social media</h3>
+          <ul class="footer__column-links">
+            <li><a href="https://twitter.com/EURO2024?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="footer__column-link"> <img class="footer__social-icon" src="./images/logo/twitter-x-logo-download.webp" alt="здесь должен быть логотип FB">X (twitter)</a></li>
+            <li><a href="https://www.facebook.com/EURO2024/" class="footer__column-link"> <img class="footer__social-icon" src="./images/logo/facebook_color_white.svg" alt="здесь должен быть логотип VK">Facebook</a></li>
+            <li><a href="https://www.instagram.com/euro2024/" class="footer__column-link"> <img class="footer__social-icon" src="./images/logo/instagram_color_white.svg" alt="здесь должен быть логотип Insta">Instagram</a></li>
+          </ul>
+        </div>
+    </div>
+    </footer>
+  </div>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

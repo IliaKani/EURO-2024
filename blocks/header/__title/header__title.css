@@ -1,0 +1,12 @@
+.header__title {
+  margin-left: 64px;
+  max-width: 730px;
+  width: 100%;
+  font-size: 102px;
+  line-height: 96px;
+  z-index: 2;
+  align-self: center;
+  letter-spacing: 0px;
+  font-family: 'UEFA Euro Extrabold Narrow';
+  text-align: center;
+}

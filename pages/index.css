@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/feinman/feinman.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/countdown-timer/countdown-timer.css);
+
+
+@font-face {
+  font-family: 'UEFA Euro book';
+  src:  url('/font/UEFAEuro-Book.woff2') format('woff2'),
+        url('/font/UEFAEuro-Book.woff') format('woff');
+};
+

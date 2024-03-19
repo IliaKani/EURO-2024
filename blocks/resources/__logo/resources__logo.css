@@ -8,3 +8,10 @@
 .resources__logo:hover {
   opacity: 0.6;
 }
+
+@media only screen and (max-width: 360px) {
+  .resources__logo {
+    width: 90px;
+    height: 10px;
+      }
+  }

@@ -6,3 +6,10 @@
   margin-top: 0px;
   margin-bottom: 0px;
   }
+
+@media only screen and (max-width: 360px) {
+  .footer__column-heading {
+    line-height: 18px;
+    font-size: 12px;
+      }
+  }  

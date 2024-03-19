@@ -9,3 +9,9 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 360px) {
+  .cards {
+    width: 300px;
+  }
+}

@@ -6,3 +6,12 @@
   bottom: 0;
   z-index: 1;
 }
+
+
+@media only screen and (max-width: 360px) {
+  .header__main-illustration {
+    width: 250px;
+    height: 200px;
+    top: 64px;
+  }
+}

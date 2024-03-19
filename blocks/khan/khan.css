@@ -12,3 +12,9 @@
   padding-top: 105px;
   background-color: #f2f2f2;
 }
+
+@media only screen and (max-width: 360px) {
+  .khan {
+    padding-top: 30px;
+  }
+}  

@@ -2,3 +2,10 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+@media only screen and (max-width: 360px) {
+  .digits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}  

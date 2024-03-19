@@ -3,6 +3,13 @@
   bottom: 0px;
   position: absolute;
   width: 800px;
-  height:  600px;
-  background-image: url(../../../images/Klopp\ J\ \(2\).png);
+  height: 600px;
 }
+
+@media only screen and (max-width: 360px) {
+  .feinman__img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+  }
+}  

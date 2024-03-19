@@ -6,3 +6,10 @@
   padding-top: 100px;
   padding-bottom: 217px;
 }
+
+@media only screen and (max-width: 360px) {
+  .resources {
+    padding-top: 30px;
+    padding-bottom: 70px;
+      }
+  }

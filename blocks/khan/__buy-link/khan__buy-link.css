@@ -12,3 +12,12 @@
 .khan__buy-link:hover {
   opacity: 0.6;
 }
+
+
+@media only screen and (max-width: 360px) {
+  .khan__buy-link {
+    font-size: 12px;
+    line-height: 18px;
+    align-self: flex-end;
+      }
+  }  

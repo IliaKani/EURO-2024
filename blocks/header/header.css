@@ -15,3 +15,18 @@
   overflow: hidden;
   /* выше установили ограничения для секции */
 }
+
+
+@media only screen and (max-width: 780px) {
+  .header {
+  padding: 28px 24px 48px 24px;
+  max-width: 780px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header {
+  padding: 16px 16px 48px 16px;
+  min-height: 450px;
+  }
+}

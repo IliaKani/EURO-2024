@@ -7,3 +7,9 @@
   font-weight: normal;
   color: #f2f2f2;
 }
+
+@media only screen and (max-width: 360px) {
+  .footer__author {
+    margin-top: 0;
+      }
+  }  

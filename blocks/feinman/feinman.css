@@ -12,3 +12,11 @@
   padding-top: 80px;
   background-color: #f2f2f2;
   }
+
+
+  @media only screen and (max-width: 360px) {
+    .feinman {
+      min-height: 450px;
+      padding-top: 30px;
+    }
+  }  

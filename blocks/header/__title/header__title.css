@@ -10,3 +10,12 @@
   font-family: 'UEFA Euro Extrabold Narrow';
   text-align: center;
 }
+
+@media only screen and (max-width: 360px) {
+  .header__title {
+    margin-left: 0px;
+    font-size: 30px;
+    position: absolute;
+    top: 270px;
+  }
+}

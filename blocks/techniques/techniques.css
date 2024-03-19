@@ -3,3 +3,10 @@
   margin: auto;
   width: 80%;
 }
+
+
+@media only screen and (max-width: 360px) {
+  .techniques {
+    padding-bottom: 30px;
+  }
+}

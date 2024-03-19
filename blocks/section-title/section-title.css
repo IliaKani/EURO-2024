@@ -11,3 +11,10 @@
   font-weight: bold;
   text-align: center;
   }
+
+  @media only screen and (max-width: 360px) {
+    .section-title  {
+      font-size: 30px;
+    }
+    
+  }

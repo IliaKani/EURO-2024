@@ -43,7 +43,7 @@
   text-align: center;
   font-weight: 500;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 #time div span {
@@ -94,4 +94,16 @@
   text-transform: uppercase;
   display: block;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 360px) {
+  #time {
+    flex-wrap: wrap;
+  }
+  #time .circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -6,3 +6,11 @@
   position: absolute;
   background-image: url(../../../images/logo/UEFA\ Euro\ 2024\ Germany.svg);
 }
+
+
+@media only screen and (max-width: 360px) {
+  .logo_place_header {
+    top: 10px;
+    left: 34px;
+  }
+}

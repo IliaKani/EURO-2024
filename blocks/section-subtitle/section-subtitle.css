@@ -11,3 +11,10 @@
   font-weight: normal;
   text-align: center;
   }
+
+@media only screen and (max-width: 360px) {
+  .section-subtitle {
+    line-height: 16px;
+    font-size: 12px;
+    }
+}

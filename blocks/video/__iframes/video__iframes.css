@@ -4,3 +4,9 @@
   position: relative;
   display: flex;
 }
+
+@media only screen and (max-width: 360px) {
+  .video__iframes {
+    flex-wrap: wrap;
+  }
+}

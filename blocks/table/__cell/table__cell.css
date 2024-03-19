@@ -2,3 +2,10 @@
   width: 250px;
   margin-top: 60px;
 }
+
+@media only screen and (max-width: 360px) {
+  .table__cell {
+    width: 180px;
+    margin-top: 20px;
+  }
+}  

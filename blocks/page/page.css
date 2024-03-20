@@ -7,13 +7,6 @@
   font-family: 'UEFA Euro book', Arial, sans-serif;
 }
 
-@media only screen and (max-width: 780px) {
-  .page {
-  padding: 28px 24px 48px 24px;
-  max-width: 780px;
-  }
-}
-
 @media only screen and (max-width: 360px) {
   .page {
   padding: 16px 16px 48px 16px;

@@ -1,7 +1,7 @@
 .page {
-  min-width: 360px;
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'UEFA Euro book', Arial, sans-serif;

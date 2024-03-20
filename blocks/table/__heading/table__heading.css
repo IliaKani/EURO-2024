@@ -3,6 +3,7 @@
   font-size: 32px;
   font-weight: bold;
   margin-top: 0;
+  text-align: center;
 }
 
 @media only screen and (max-width: 360px) {

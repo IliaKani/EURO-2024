@@ -7,7 +7,7 @@
 .feinman {
   display: flex;
   flex-direction: column;
-  min-height: 790px;
+  min-height: 450px;
   position: relative;
   padding-top: 80px;
   background-color: #f2f2f2;
@@ -18,5 +18,12 @@
     .feinman {
       min-height: 450px;
       padding-top: 30px;
+    }
+  }  
+
+  @media only screen and (max-width: 600px) {
+    .feinman {
+      min-height: 450px;
+      padding-top: 20px;
     }
   }  

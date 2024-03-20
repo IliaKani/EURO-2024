@@ -13,3 +13,11 @@
     position: relative;
   }
 }  
+
+@media only screen and (max-width: 600px) {
+  .feinman__img {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+}  

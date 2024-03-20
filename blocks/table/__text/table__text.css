@@ -4,6 +4,7 @@
   font-weight: normal;
   margin-top: 20px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 @media only screen and (max-width: 360px) {

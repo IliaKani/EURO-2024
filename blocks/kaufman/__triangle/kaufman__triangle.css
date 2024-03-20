@@ -15,3 +15,12 @@
     right: -90px;
       }
   }   
+
+@media only screen and (max-width: 600px) {
+.kaufman__triangle  {
+  width: 300px;
+  height: 300px;
+  right: -120px;
+    }
+}  
+  

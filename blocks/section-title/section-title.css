@@ -4,7 +4,7 @@
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
   margin-top: 0px;
   line-height: 1.15;
   font-size: 60px;
@@ -13,6 +13,12 @@
   }
 
   @media only screen and (max-width: 360px) {
+    .section-title  {
+      font-size: 30px;
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
     .section-title  {
       font-size: 30px;
     }

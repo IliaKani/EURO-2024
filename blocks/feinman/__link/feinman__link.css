@@ -20,3 +20,10 @@
     top: 80%;
   }
 }  
+
+@media only screen and (max-width: 600px) {
+  .feinman__link {
+    font-size: 18px;
+    top: 90%;
+  }
+}  

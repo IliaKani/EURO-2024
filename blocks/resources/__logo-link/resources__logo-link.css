@@ -1,3 +1,10 @@
 .resources__logo-link {
 height: 38px;
 }
+
+@media only screen and (max-width: 600px) {
+    .resources__logo-link {
+        width: 50%;
+        height: 50%;
+        }
+    } 

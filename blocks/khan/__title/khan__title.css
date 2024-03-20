@@ -5,9 +5,9 @@
   font-size: 60px;
   font-weight: bold;
 }
+  
 
-
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
   .khan__title {
     font-size: 24px;
     margin-bottom: 25px;

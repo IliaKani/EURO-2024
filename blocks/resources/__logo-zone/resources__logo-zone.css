@@ -6,3 +6,8 @@ display: flex;
 justify-content: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .resources__logo-zone {
+        margin-top: 40px;
+        }
+    }  

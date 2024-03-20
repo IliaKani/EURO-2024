@@ -10,3 +10,10 @@
     padding-bottom: 30px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .techniques {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}

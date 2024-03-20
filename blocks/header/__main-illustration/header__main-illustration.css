@@ -1,6 +1,7 @@
 .header__main-illustration {
+  max-width: 100%;
+  height: auto;
   width: 765px;
-  height: 608px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -13,5 +14,11 @@
     width: 250px;
     height: 200px;
     top: 64px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__main-illustration {
+    bottom: 20%;
   }
 }

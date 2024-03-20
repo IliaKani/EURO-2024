@@ -9,3 +9,10 @@
     margin-top: 20px;
   }
 }  
+
+@media only screen and (max-width: 600px) {
+  .table__cell {
+    width: 50%;
+    margin-top: 20px;
+  }
+}  

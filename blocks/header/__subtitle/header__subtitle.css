@@ -1,5 +1,5 @@
 .header__subtitle {
-  width: 388px;
+  width: 360px;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
@@ -12,7 +12,6 @@
 @media only screen and (max-width: 360px) {
   .header__subtitle {
     left: 0px;
-    width: 360px;
   }
 }
 

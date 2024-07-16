@@ -18,8 +18,8 @@ window.onload = function() {
 
   let x = setInterval(function() {
     let now = new Date().getTime();
-    let end = new Date(endDate).getTime();
-    let distance = end - now;
+    let start = new Date(endDate).getTime();
+    let distance = now - start; 
     //time calculation for days, hours, minutes and seconds
     let d = Math.floor(distance / (1000 * 60 * 60 * 24));
     let h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));

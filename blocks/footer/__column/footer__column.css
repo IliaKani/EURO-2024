@@ -6,4 +6,5 @@
   display: flex;
   flex-direction: column;
   flex-basis: 33%;
+  text-align: right;
 }

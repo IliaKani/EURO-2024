@@ -21,10 +21,13 @@
 
 
 @font-face {
-  font-family: 'UEFA Euro book';
-  src:  url('/font/UEFAEuro-Book.woff2') format('woff2'),
-        url('/font/UEFAEuro-Book.woff') format('woff');
-};
+  font-family: 'UEFA Euro Book';
+  src: url('../font/UEFAEuro-Book.woff2') format('woff2'),
+       url('../font/UEFAEuro-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   width: 100%;

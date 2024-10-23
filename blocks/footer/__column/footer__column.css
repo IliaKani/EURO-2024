@@ -8,3 +8,10 @@
   flex-basis: 33%;
   text-align: right;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .footer__column {
+    text-align: center;
+  }
+}

@@ -5,13 +5,19 @@
 @import url(./__cell/_theme/table__cell_theme_dark.css);
 
 .table {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 20px; /* Расстояние между блоками */
+}
+
+.table--5x5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.table--4x4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media only screen and (max-width: 600px) {

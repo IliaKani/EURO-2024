@@ -4,6 +4,14 @@
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box; /* Учитывать padding и border в ширине и высоте */
+  overflow: hidden; /* Скрывать переполнение */
+  word-wrap: break-word; /* Переносить длинные слова */
 }
 
 @media only screen and (max-width: 360px) {
@@ -16,6 +24,5 @@
 @media only screen and (max-width: 600px) {
   .table__cell_theme_dark  {
     margin-top: 30px;
-    width: 50%;
       }
   }    

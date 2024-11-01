@@ -1,6 +1,12 @@
 .table__cell {
-  width: 250px;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box; /* Учитывать padding и border в ширине и высоте */
+  overflow: hidden; /* Скрывать переполнение */
+  word-wrap: break-word; /* Переносить длинные слова */
 }
 
 @media only screen and (max-width: 360px) {
@@ -12,7 +18,10 @@
 
 @media only screen and (max-width: 600px) {
   .table__cell {
-    width: 50%;
-    margin-top: 20px;
+    flex: 1 1 45%; /* Занимает 45% ширины контейнера */
+    margin: 10px; /* Отступы между карточками */
+    box-sizing: border-box; /* Учитывать padding и border в ширине и высоте */
+    overflow: hidden; /* Скрывать переполнение */
+    word-wrap: break-word; /* Переносить длинные слова */
   }
 }  
